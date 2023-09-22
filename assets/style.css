@@ -70,7 +70,7 @@ a {
     background-color: #92CCCE;
 }
 
-main {
+main, footer {
     padding: 10px 5%;
 }
 
@@ -80,6 +80,7 @@ main {
 }
 
 .titles {
+    display: flex;
     position: relative;
     border-right: 2px solid black;
     width: 20%;
@@ -97,26 +98,67 @@ main {
     width: 80%;
 }
 
+#work_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#work_section div {
+    position: relative;
+}
+
+#work {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 #project_links {
     display: flex;
     flex-flow: row wrap;
 }
 
+project_links ul {
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    width: 50%;
+}
+
 #item_1 {
-    
+    width: 100%;
+    background-image: url(picture_1.jpg);
+}
+
+#item_2 {
+}
+
+#item_3 {
+}
+
+#item_4 {
+}
+
+#item_5 {
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    padding: 0 5% 10px 5%;
-    row-gap: 10px;
-    width: 100%;
-    align-content: space-around;
+}
+
+footer h2 {
+    display: flex;
 }
 
 footer div {
     display: flex;
+    flex-direction: row;
+    padding: 0 5% 10px 5%;
+    row-gap: 10px;
+    align-content: space-around;
 }
 
 footer a {
