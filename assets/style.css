@@ -24,11 +24,12 @@ header ul {
 #subtitle-area {
     display: flex;
     position: relative;
-    line-height: 5em;
+    height: 5em;
+    flex-direction: row-reverse;
 }
 
-#subtitle-area h2 {
+#subtitle-area h3 {
     display: flex;
     font-size: larger;
-    align-items: flex-end;
+    height: 1.5em;
 }
