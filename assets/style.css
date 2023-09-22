@@ -1,12 +1,20 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 3px;
+    padding: 0px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: #31343D;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #EEEEF7;
+    color: #445877;
+    line-height: 1.4em;
 }
 
 h1 {
@@ -14,6 +22,7 @@ h1 {
     padding: 10px 5px 5px 40px;
     font-size: 2.5em;
     background-color: #92CCCE;
+    color: #31343D;
 }
 
 nav {
@@ -61,15 +70,33 @@ a {
 #about {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
-h2 {
+.titles {
+    position: relative;
     border-right: 2px solid black;
+    width: 20%;
 }
 
-p {
+#about_me{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+#my_bio {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#work {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
 }
 
 footer ul {
