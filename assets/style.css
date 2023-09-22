@@ -14,11 +14,24 @@ h1 {
     font-size: 2.5em;
 }
 
+nav {
+    display: flex;
+    align-items: end;
+}
+
 header ul {
     display: flex;
-    text-decoration: none;
     flex-direction: row;
     margin-right: 40px;
+}
+
+li {
+    border-bottom: 2px solid black;
+    margin: 0 2px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #subtitle-area {
@@ -32,4 +45,18 @@ header ul {
     display: flex;
     font-size: larger;
     height: 1.5em;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+
+}
+
+footer ul {
+    display: flex;
 }
