@@ -109,11 +109,11 @@ main, footer {
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding: 0 0 2% 2%;
+    padding: 0 0 1% 2%;
 }
 
 p {
-    padding-bottom: 2%;
+    padding-bottom: 1.5%;
 }
 
 #work_section {
@@ -143,13 +143,20 @@ p {
 
 .items {
     display: flex;
+    position: relative;
     width: 49%;
     border: 5px solid var(--teal);
-}
-
-#project_links li {
     flex: 1 1 auto;
     height: 15em;
+}
+
+.item_cards {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background-color: var(--teal);
+    height: 5em;
+    width: fit-content;
 }
 
 #item_1 {
@@ -157,6 +164,7 @@ p {
     margin-bottom: 1%;
     background-image: url(./picture_1.jpg);
     background-size: cover;
+    height: 30em;
 }
 
 #item_2 {
