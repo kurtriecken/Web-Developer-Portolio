@@ -147,31 +147,39 @@ p {
     border: 5px solid var(--teal);
 }
 
-img {
-    object-fit: contain;
-    flex-grow: 1;
-    flex-shrink: 1;
+#project_links li {
+    flex: 1 1 auto;
+    height: 15em;
 }
 
 #item_1 {
     width: 100%;
     margin-bottom: 1%;
-    /* background-image: url(picture_1.jpg) */
+    background-image: url(./picture_1.jpg);
+    background-size: cover;
 }
 
 #item_2 {
+    background-image: url(./picture_2.jpg);
+    background-size: cover;
     margin: 1% 1% 1% 0;
 }
 
 #item_3 {
+    background-image: url(./picture_3.png);
+    background-size: cover;
     margin: 1% 0 1% 1%;
 }
 
 #item_4 {
+    background-image: url(./picture_4.jpg);
+    background-size: cover;
     margin: 1% 1% 2% 0;
 }
 
 #item_5 {
+    background-image: url(./picture_5.jpg);
+    background-size: cover;
     margin: 1% 0 2% 1%;
 }
 
