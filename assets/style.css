@@ -118,18 +118,11 @@ p {
 
 #work_section {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 #work_section div {
     position: relative;
 }
-
-/* #work {
-    position: absolute;
-    top: 0;
-    right: 5px;
-} */
 
 #project_links {
     display: flex;
@@ -214,4 +207,28 @@ footer a {
     border-bottom: 2px solid black;
     margin: 0 2px;
     font-size: larger;
+}
+
+/* Screen size changes */
+@media screen and (max-width: 980px) {
+    #about, #work_section, footer {
+        flex-direction: column;
+    }
+
+    .titles {
+        height: 5em;
+        width: 100%;
+        height: 1.3em;
+        border-right: none;
+        border-bottom: 3px solid var(--dark-gray);
+    }
+
+    h2 {
+        left: 0;
+    }
+
+    #my_bio, #project_links, #socials {
+        padding: 2% 0 2% 0;
+        width: 100%;
+    }
 }
