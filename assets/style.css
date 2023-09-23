@@ -82,6 +82,7 @@ main, footer {
 #about {
     display: flex;
     flex-direction: row;
+    padding: 10px 0 20px 0;
 }
 
 .titles {
@@ -102,6 +103,7 @@ main, footer {
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding: 0 0 2% 2%;
 }
 
 #work_section {
