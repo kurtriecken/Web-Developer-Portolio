@@ -128,9 +128,6 @@ p {
     display: flex;
     flex-flow: row wrap;
     padding-left: 2%;
-}
-
-#project_links {
     width: 80%;
 }
 
