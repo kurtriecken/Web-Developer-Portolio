@@ -43,23 +43,25 @@ header nav {
     align-items: end;
 }
 
-header ul {
+header div {
     display: flex;
     flex-direction: row;
 }
 
-header li {
-    border-bottom: 3px solid --teal;
-    margin: 0 2px;
-}
-
 header a {
     color: var(--teal);
+    border-bottom: 3px solid var(--teal);
+    margin: 0 2px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+}
+
+header p {
+    font-weight: bold;
+    font-family: 'Archivo Black';
+    color: var(--white-gray);
 }
 
 #subtitle-area {
@@ -73,9 +75,10 @@ a {
     padding: 0 5%;
 }
 
-#subtitle-area h3 {
+#subtitle-area p {
     display: flex;
     font-size: x-large;
+    font-weight: bolder;
     height: 1.5em;
     position: absolute;
     bottom: 20px;
@@ -245,7 +248,7 @@ footer a {
 
     h1 {
         text-align: center;
-        margin: 6px 0 6px -52px;
+        margin: 0 0 6px -52px;
     }
 
     header nav {
