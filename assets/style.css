@@ -138,6 +138,11 @@ p {
     border: 5px solid var(--teal);
     flex: 1 1 auto;
     height: 10em;
+    opacity: .75;
+}
+
+.items:hover {
+    opacity: 1;
 }
 
 .item_cards {
@@ -163,7 +168,7 @@ h4 {
 #item_1 {
     width: 100%;
     margin-bottom: 1%;
-    background-image: url(./picture_1.jpg);
+    background-image: url(./Horiseon.jpg);
     background-size: cover;
     height: 30em;
 }
@@ -175,7 +180,7 @@ h4 {
 }
 
 #item_3 {
-    background-image: url(./picture_3.png);
+    background-image: url(./picture_3.jpg);
     background-size: cover;
     margin: 1% 0 1% 1%;
 }
