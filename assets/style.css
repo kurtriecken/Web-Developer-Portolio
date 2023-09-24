@@ -223,6 +223,8 @@ footer a {
 }
 
 /* Screen size changes */
+
+/* Tablet view restructure */
 @media screen and (max-width: 980px) {
     header, #about, #work_section, footer {
         flex-direction: column;
@@ -258,5 +260,39 @@ footer a {
     #my_bio, #project_links, #socials {
         padding: 2% 0 2% 0;
         width: 100%;
+    }
+}
+
+/* Mobile view restructure */
+@media screen and (max-width: 768px) {
+    .items {
+        width: 100%;
+    }
+    
+    #item_1 {
+        height: 10em;
+        margin: 0 0 1% 0;
+    }
+
+    #item_2, #item_3, #item_4 {
+        margin: 1% 0;
+    }
+
+    #item_5 {
+        height: 10em;
+        margin: 1% 0 0 0;
+    }
+
+    #item_1 .item_cards {
+        top: 55px;
+    }
+    
+    #socials {
+        flex-direction: column;
+    }
+
+    #socials a {
+        width: fit-content;
+        padding-bottom: 2px;
     }
 }
