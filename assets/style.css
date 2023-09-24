@@ -328,6 +328,7 @@ footer a {
     
     #socials {
         flex-direction: column;
+        align-content: flex-start;
     }
 
     #socials a {
