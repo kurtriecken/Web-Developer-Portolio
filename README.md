@@ -42,6 +42,8 @@ If you have any questions or if my site does not function properly on your devic
 
 Created by kurtriecken (github.com/kurtriecken)
 
+The *About Me* section was formulated using OpenAI's ChaptGPT v3.5 and then restructured and reformatted by kurtriecken.
+
 ## License
 
 MIT license
